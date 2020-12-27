@@ -1,0 +1,10 @@
+<?php
+ob_start();
+session_start();
+$server="localhost";
+$user="root";
+$password="";
+$db="photo";
+mysql_connect($server,$user,$password);
+mysql_select_db($db);
+?>

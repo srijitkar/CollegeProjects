@@ -1,0 +1,135 @@
+#wrapper{
+	width:100%;
+	margin: 0px auto;
+}
+
+#header{
+	width: 100%;
+	height:85px;
+	background-color:#252525;
+	float:left;
+}
+#swagbtna{
+	   font-family:"proxima nova";
+	   font-weight: 40px;
+	   font-size: 20px;
+	   text-align:center;
+	   color:#31A6ff;
+	   border:solid 2px #252525 ;
+	   border-radius: 50px; 
+	   padding: 10px 30px; 
+	   text-decoration: inherit;
+	   margin-top:25px; 
+	   -webkit-transition-duration: 200mx;
+	   transition-duration: 200mx;
+
+}
+#swagbtna1{
+	   font-family:"georgia";
+	   font-weight: 40px;
+	   font-size: 20px;
+	   text-align:center;
+	   color:white;
+	   border:solid 2px #31A6ff;
+	   border-radius: 50px; 
+	   padding: 10px 30px; 
+	   text-decoration: none;
+	   margin-top:25px; 
+	   -webkit-transition-duration: 200mx;
+	   transition-duration: 200mx;
+	   outline: none;
+	   background-color: transparent;
+
+}
+#swagbtna:hover{
+	  background-color: #31A6ff;
+	  color:#fff;
+	}
+#text{
+	font-size:20px;
+	float: left;
+	text-align: left;
+	font-weight: 40px;
+	margin-top:20px; 
+	margin-left:25px; 
+	color: white;
+}
+
+#content{
+	float: left;
+	background-color:;
+	width:100%;
+	height:1000px;
+}
+#sliderbox{
+     position: relative;
+     width:3660px;
+     animation-name: srijit;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;
+     cursor: pointer;
+}
+#outerbox{
+	width:900px;
+	overflow:hidden;
+	margin-left: 220px;
+	border-radius: 20px;
+	
+
+
+}
+
+#sliderbox.img{
+	 float:left;
+
+
+
+}
+
+@keyframes srijit{
+	0%
+	{
+      left:0px;
+	}
+	20%
+	{
+		left:0px;
+	}
+	25%
+	{
+		left:-930px;
+	}
+	45%
+	{
+		left:-930px; 
+	}
+	50%
+	{
+		left:-1830px;
+	}
+	70%
+	{
+		left:-1830px;
+	}
+	75%
+	{
+		left:-2735px;
+	}
+	95%
+	{
+		left:-2735px;
+	}
+	/*99%
+	{
+		left:-4560px;
+	}*/
+}
+
+/*#footer{
+	width: 100%;
+	height:440px;
+	background-color:#FFFFFF;
+	float:left;
+	margin-top: 4px;
+	
+}*/
